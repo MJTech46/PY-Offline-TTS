@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kokoro Offline TTS</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Kokoro Offline TTS</h1>
+    <p class="subtitle">Local, private text-to-speech synthesis</p>
+
+    <textarea
+        id="text"
+        rows="8"
+        placeholder="Enter your text here..."></textarea>
+
+    <div class="controls">
+
+        <div class="control">
+
+            <label for="language">
+                Language
+            </label>
+
+            <select id="language">
+                <!-- Filled by JavaScript -->
+            </select>
+
+        </div>
+
+        <div class="control">
+
+            <label for="voice">
+                Voice
+            </label>
+
+            <select id="voice">
+                <!-- Filled by JavaScript -->
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="control">
+
+        <label for="speed">
+            Speed : <span id="speedValue">1.25</span>x
+        </label>
+
+        <input
+            type="range"
+            id="speed"
+            min="0.5"
+            max="2.0"
+            step="0.05"
+            value="1.25">
+
+    </div>
+
+    <button id="generateBtn" onclick="generateVoice()">
+        Generate Speech
+    </button>
+
+    <hr>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

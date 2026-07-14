@@ -1,0 +1,391 @@
+[
+  {
+    "id": "af_heart",
+    "name": "Heart",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_alloy",
+    "name": "Alloy",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_aoede",
+    "name": "Aoede",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_bella",
+    "name": "Bella",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_jessica",
+    "name": "Jessica",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_kore",
+    "name": "Kore",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_nicole",
+    "name": "Nicole",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_nova",
+    "name": "Nova",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_river",
+    "name": "River",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_sarah",
+    "name": "Sarah",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "af_sky",
+    "name": "Sky",
+    "gender": "Female",
+    "language": "American English",
+    "lang": "en-us"
+  },
+
+  {
+    "id": "am_adam",
+    "name": "Adam",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_echo",
+    "name": "Echo",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_eric",
+    "name": "Eric",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_fenrir",
+    "name": "Fenrir",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_liam",
+    "name": "Liam",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_michael",
+    "name": "Michael",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_onyx",
+    "name": "Onyx",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_puck",
+    "name": "Puck",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+  {
+    "id": "am_santa",
+    "name": "Santa",
+    "gender": "Male",
+    "language": "American English",
+    "lang": "en-us"
+  },
+
+  {
+    "id": "bf_alice",
+    "name": "Alice",
+    "gender": "Female",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bf_emma",
+    "name": "Emma",
+    "gender": "Female",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bf_isabella",
+    "name": "Isabella",
+    "gender": "Female",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bf_lily",
+    "name": "Lily",
+    "gender": "Female",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+
+  {
+    "id": "bm_daniel",
+    "name": "Daniel",
+    "gender": "Male",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bm_fable",
+    "name": "Fable",
+    "gender": "Male",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bm_george",
+    "name": "George",
+    "gender": "Male",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+  {
+    "id": "bm_lewis",
+    "name": "Lewis",
+    "gender": "Male",
+    "language": "British English",
+    "lang": "en-gb"
+  },
+
+  {
+    "id": "jf_alpha",
+    "name": "Alpha",
+    "gender": "Female",
+    "language": "Japanese",
+    "lang": "ja"
+  },
+  {
+    "id": "jf_gongitsune",
+    "name": "Gongitsune",
+    "gender": "Female",
+    "language": "Japanese",
+    "lang": "ja"
+  },
+  {
+    "id": "jf_nezumi",
+    "name": "Nezumi",
+    "gender": "Female",
+    "language": "Japanese",
+    "lang": "ja"
+  },
+  {
+    "id": "jf_tebukuro",
+    "name": "Tebukuro",
+    "gender": "Female",
+    "language": "Japanese",
+    "lang": "ja"
+  },
+  {
+    "id": "jm_kumo",
+    "name": "Kumo",
+    "gender": "Male",
+    "language": "Japanese",
+    "lang": "ja"
+  },
+
+  {
+    "id": "zf_xiaobei",
+    "name": "Xiaobei",
+    "gender": "Female",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zf_xiaoni",
+    "name": "Xiaoni",
+    "gender": "Female",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zf_xiaoxiao",
+    "name": "Xiaoxiao",
+    "gender": "Female",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zf_xiaoyi",
+    "name": "Xiaoyi",
+    "gender": "Female",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+
+  {
+    "id": "zm_yunjian",
+    "name": "Yunjian",
+    "gender": "Male",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zm_yunxi",
+    "name": "Yunxi",
+    "gender": "Male",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zm_yunxia",
+    "name": "Yunxia",
+    "gender": "Male",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+  {
+    "id": "zm_yunyang",
+    "name": "Yunyang",
+    "gender": "Male",
+    "language": "Mandarin Chinese",
+    "lang": "zh"
+  },
+
+  {
+    "id": "ef_dora",
+    "name": "Dora",
+    "gender": "Female",
+    "language": "Spanish",
+    "lang": "es"
+  },
+  {
+    "id": "em_alex",
+    "name": "Alex",
+    "gender": "Male",
+    "language": "Spanish",
+    "lang": "es"
+  },
+  {
+    "id": "em_santa",
+    "name": "Santa",
+    "gender": "Male",
+    "language": "Spanish",
+    "lang": "es"
+  },
+
+  {
+    "id": "ff_siwis",
+    "name": "Siwis",
+    "gender": "Female",
+    "language": "French",
+    "lang": "fr-fr"
+  },
+
+  {
+    "id": "hf_alpha",
+    "name": "Alpha",
+    "gender": "Female",
+    "language": "Hindi",
+    "lang": "hi"
+  },
+  {
+    "id": "hf_beta",
+    "name": "Beta",
+    "gender": "Female",
+    "language": "Hindi",
+    "lang": "hi"
+  },
+  {
+    "id": "hm_omega",
+    "name": "Omega",
+    "gender": "Male",
+    "language": "Hindi",
+    "lang": "hi"
+  },
+  {
+    "id": "hm_psi",
+    "name": "Psi",
+    "gender": "Male",
+    "language": "Hindi",
+    "lang": "hi"
+  },
+
+  {
+    "id": "if_sara",
+    "name": "Sara",
+    "gender": "Female",
+    "language": "Italian",
+    "lang": "it"
+  },
+  {
+    "id": "im_nicola",
+    "name": "Nicola",
+    "gender": "Male",
+    "language": "Italian",
+    "lang": "it"
+  },
+
+  {
+    "id": "pf_dora",
+    "name": "Dora",
+    "gender": "Female",
+    "language": "Brazilian Portuguese",
+    "lang": "pt-br"
+  },
+  {
+    "id": "pm_alex",
+    "name": "Alex",
+    "gender": "Male",
+    "language": "Brazilian Portuguese",
+    "lang": "pt-br"
+  },
+  {
+    "id": "pm_santa",
+    "name": "Santa",
+    "gender": "Male",
+    "language": "Brazilian Portuguese",
+    "lang": "pt-br"
+  }
+]
