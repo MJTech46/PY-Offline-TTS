@@ -79,7 +79,87 @@
 
 </div>
 
+
+<footer class="info-section">
+
+    <div class="info-grid">
+
+        <div class="info-card">
+            <h3>📘 User Guide</h3>
+            <ul>
+                <li>Type or paste your text in the box above</li>
+                <li>Pick a <strong>language</strong> and <strong>voice</strong></li>
+                <li>Adjust <strong>speed</strong> (0.5x – 2.0x, step 0.05)</li>
+                <li>Click <strong>Generate Speech</strong></li>
+                <li>Preview with the player, or tap ⬇️ to download</li>
+            </ul>
+            <p class="note">
+                🗂️ All generated audio is saved in the <code>Generated_Audios</code> folder.
+                If it grows too large, feel free to delete its contents.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🌍 Supported Languages</h3>
+            <div class="tag-list">
+                <span class="tag">🇺🇸 American English</span>
+                <span class="tag">🇬🇧 British English</span>
+                <span class="tag">🇵🇹 Portuguese</span>
+                <span class="tag">🇫🇷 French</span>
+                <span class="tag">🇮🇳 Hindi</span>
+                <span class="tag">🇮🇹 Italian</span>
+                <span class="tag">🇪🇸 Spanish</span>
+            </div>
+        </div>
+
+        <div class="info-card">
+            <h3>⚙️ Tech & Requirements</h3>
+            <ul>
+                <li>Built with <strong>Python 3</strong></li>
+                <li>Powered by <code>Flask</code>, <code>soundfile</code>, <code>kokoro_onnx</code></li>
+                <li>Minimum <strong>500MB</strong> free RAM</li>
+                <li>✅ No GPU required</li>
+            </ul>
+        </div>
+
+        <div class="info-card">
+            <h3>👤 Creator & Support</h3>
+            <p class="creator-name">MJ Tech</p>
+            <div class="links">
+                <a href="https://github.com/MJTech46/PY-Offline-TTS" target="_blank" rel="noopener">
+                    🐙 GitHub Repo
+                </a>
+                <a href="https://github.com/MJTech46" target="_blank" rel="noopener">
+                    👨‍💻 @MJTech46
+                </a>
+                <a href="mailto:mjtecg46@gmail.com">
+                    ✉️ mjtecg46@gmail.com
+                </a>
+            </div>
+            <p class="note">
+                💬 Found a bug or have a feature idea? Open an issue on GitHub or drop an email!
+            </p>
+        </div>
+
+    </div>
+
+    <p class="footer-bottom">Made with ❤️ by MJ Tech · Kokoro Offline TTS</p>
+
+</footer>
+
 <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<!-- <script>
+    const infoSection = document.querySelector('.info-section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                infoSection.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+    observer.observe(infoSection);
+</script> -->
 
 </body>
 

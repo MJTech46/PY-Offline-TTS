@@ -10,13 +10,13 @@ import soundfile as sf
 from flask import Flask, jsonify, render_template, request, send_from_directory
 from kokoro_onnx import Kokoro
 
-# Custom imports
-from cleanup import cleanup_now
 
+# pip install flask soundfile kokoro_onnx
 
 
 # Configurations
-GENERATED_FOLDER = ".tmp"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+GENERATED_FOLDER = os.path.join(BASE_DIR, "Generated_Audios")
 os.makedirs(GENERATED_FOLDER, exist_ok=True)
 
 
@@ -32,11 +32,6 @@ print("Model loaded!")
 
 
 # Supporting functions
-def cleanup_loop():
-    while True:
-        cleanup_now()
-        time.sleep(60)
-
 def open_browser():
     time.sleep(2)
     webbrowser.open("http://127.0.0.1:5000")
@@ -46,6 +41,13 @@ def open_browser():
 # Flask app setup
 app = Flask(__name__)
 
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(
+        app.static_folder, 'favicon.ico', mimetype='image/vnd.microsoft.icon'
+    )
+
+
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -53,24 +55,19 @@ def home():
 
 @app.route("/generate", methods=["POST"])
 def generate():
-
     data = request.get_json()
-
     text = data["text"]
     voice = data["voice"]
     speed = float(data["speed"])
-
     filename = datetime.now().strftime("%Y%m%d_%H%M%S") + ".wav"
-
     filepath = os.path.join(GENERATED_FOLDER, filename)
 
     samples, sample_rate = kokoro.create(
         text=text,
         voice=voice,
         speed=speed,
-        lang="en-us"
+        lang = data["lang"]
     )
-
     sf.write(filepath, samples, sample_rate)
 
     return jsonify({
@@ -98,6 +95,5 @@ def audio(filename):
 
 
 if __name__ == "__main__":
-    threading.Thread(target=cleanup_loop,daemon=True).start()
     threading.Thread(target=open_browser,daemon=True).start()
-    app.run(host="0.0.0.0",port=5000,use_reloader=False,debug=False)
+    app.run(host="0.0.0.0",port=5000, debug=False, use_reloader=False)

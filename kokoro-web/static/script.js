@@ -99,7 +99,10 @@ async function generateVoice() {
 
     const result = document.getElementById("result");
 
-    result.innerHTML = "<p>Generating...</p>";
+    result.innerHTML = `
+        <div class="skeleton-audio"></div>
+        <div class="skeleton-icon"></div>
+    `;
 
     const response = await fetch("/generate", {
 
